@@ -16,7 +16,6 @@ angular.module('ngPlaid', [])
         if (!suppressToken && !data.access_token) {
             data.access_token = access_token;
         }
-console.log(path, JSON.stringify(data));
         return $http.post(server_url + path, data);
     }
     
@@ -77,13 +76,9 @@ console.log(path, JSON.stringify(data));
                 
         postRequest('/connect/get', {})
             .success(function(data, status, headers, config) {
-                console.log('connect/get success');
-                console.log(data);
                 def.resolve(data);
             })
             .error(function(data, status, headers, config) {
-                console.log('connect/get error');
-                console.log(data);
                 def.reject(data);
             });
         
@@ -94,8 +89,7 @@ console.log(path, JSON.stringify(data));
         configure: configure,
         connect: connect,
         step: step,
-        get: get
-        
+        get: get        
     };
     
 });
