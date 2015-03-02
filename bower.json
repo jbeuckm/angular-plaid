@@ -1,0 +1,25 @@
+{
+  "name": "angular-plaid",
+  "main": "angular-plaid.js",
+  "version": "0.0.1",
+  "authors": [
+    "joe beuckman <joebeuckman@gmail.com>"
+  ],
+  "description": "An Angular service for Plaid Financial API",
+  "keywords": [
+    "account",
+    "transaction",
+    "plaid",
+    "bank",
+    "api"
+  ],
+  "license": "Don't read software licenses. Don't write software licenses.",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ]
+}
