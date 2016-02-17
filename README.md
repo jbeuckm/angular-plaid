@@ -4,7 +4,7 @@ Angular Plaid
 Consume the [Plaid API](https://plaid.com/docs/) with your Angular app.
 
 ###Installation###
-bower install https://github.com/jbeuckm/angular-plaid
+bower install https://github.com/jbeuckm/angular-plaid.git
 
 ###Usage###
 
